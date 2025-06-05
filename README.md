@@ -1,6 +1,6 @@
-# Platform for finding teams and projects
+# Web application for finding teams and projects
 
-Online platform that helps people find like-minded collaborators for informal projects, pet projects, or skill-practice collaborations.
+Online web application that helps people find like-minded collaborators for informal projects, pet projects, or skill-practice collaborations.
 
 ---
 
@@ -9,7 +9,7 @@ Online platform that helps people find like-minded collaborators for informal pr
 - **Project Creator** — user who has a idea for a project and looks for team members
 - **Team Seeker** — user who is looking for a project to join
 - **User** — common user who can be a **Project Creator** or **Team Seeker**
-- **Admin** — platform Administrator who manages users and projects
+- **Admin** — system Administrator who manages users and projects
 
 ---
 
@@ -74,3 +74,37 @@ Online platform that helps people find like-minded collaborators for informal pr
 - As an **admin**, I want to be able to view all reports about inappropriate users.
 - As an **admin**, I want to be able to block users who violate rules.
 - As an **admin**, I want to be able to delete or hide inappropriate projects.
+
+## Quality Requirements (Grouped by Quality Attributes)
+
+### 1. Usability
+
+- The system should have an intuitive user interface accessible to non-technical users.
+- Registration and onboarding should take no longer than 2 minutes for a new user.
+
+
+### 2. Security
+
+- The system must protect against common web attacks (XSS, CSRF, SQL injection).
+- Passwords must be stored securely using hashing algorithms.
+- The system must implement secure user authentication using JWT tokens.
+
+### 3. Performance
+- System should load the main dashboard within 1.5 seconds
+- Search and filtering operations should return results within 2 seconds.
+
+
+### 4. Reliability
+
+- The system should be available 95% of the time.
+- Chat, requests, and data operations must never result in data loss.
+
+### 5. Maintainability
+
+- The codebase should follow clean architecture principles.
+- System should include clean API documentation.
+
+### 6. Portability
+
+- The system must be a web-based application accessible via browsers.
+- The frontend must be compatible with recent versions of major browsers.
