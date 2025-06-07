@@ -58,7 +58,6 @@ Online web application that helps people find like-minded collaborators for info
 
 - As a **User**, I want to be able to receive notifications when someone applies to my project.
 - As a **User**, I want to be able to receive notifications when my request to join a project is accepted or rejected.
-- As a **User**, I want to be able to receive notifications about new messages in chats.
 
 ### 7. Admin Management
 
