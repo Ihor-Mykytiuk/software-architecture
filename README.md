@@ -36,6 +36,7 @@ Online web application that helps people find like-minded collaborators for info
 
 ### 4. User Management
 
+- As a **User**, I want to be able to view my profile.
 - As a **User**, I want to be able to edit my profile.
 - As a **User**, I want to be able to delete my account.
 - As a **User**, I want to be able to view other users profiles.
