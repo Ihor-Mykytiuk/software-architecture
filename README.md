@@ -7,8 +7,8 @@ Online web application that helps people find like-minded collaborators for info
 ## Roles
 - **Guest** — user who is not registered and wants to register
 - **Project Creator** — user who has a idea for a project and looks for team members
-- **Team Seeker** — user who is looking for a project to join
-- **User** — common user who can be a **Project Creator** or **Team Seeker**
+- **Project Seeker** — user who is looking for a project to join
+- **User** — common user who can be a **Project Creator** or **Project Seeker**
 - **Admin** — system Administrator who manages users and projects
 
 ---
@@ -33,10 +33,10 @@ Online web application that helps people find like-minded collaborators for info
 
 ### 3. Team Seeking and Management
 
-- As a **Team Seeker**, I want to be able to browse a list of open projects.
-- As a **Team Seeker**, I want to be able to filter projects by category, tech stack, desired role, and experience level.
-- As a **Team Seeker**, I want to be able to search for projects using keywords in the title or description.
-- As a **Team Seeker**, I want to be able to view project details
+- As a **Project Seeker**, I want to be able to browse a list of open projects.
+- As a **Project Seeker**, I want to be able to filter projects by category, tech stack, desired role, and experience level.
+- As a **Project Seeker**, I want to be able to search for projects using keywords in the title or description.
+- As a **Project Seeker**, I want to be able to view project details
 
 ### 4. User Management
 
@@ -48,20 +48,20 @@ Online web application that helps people find like-minded collaborators for info
 
 ### 5. Communication and Requests
 
-- As a **Team Seeker**, I want to be able to send a request to join a project
+- As a **Project Seeker**, I want to be able to send a request to join a project
 - As a **Project Creator**, I want to be able to accept or reject a request to join a project
-- As a **Team Seeker**, I want to be able to communicate with **Project Creator** to discuss project details
-- As a **Project Creator**, I want to be able to communicate with **Team Seeker** to discuss project details.
+- As a **Project Seeker**, I want to be able to communicate with **Project Creator** to discuss project details
+- As a **Project Creator**, I want to be able to communicate with **Project Seeker** to discuss project details.
 - As a **user**, I want to be able to see chat messages in real-time
 - As a **user**, I want to be able to access previous conversations linked to the project.
 - As a **Project Creator**, I want to be able to view all requests to join my project
-- As a **Team Seeker**, I want to be able to view all my requests to join projects
-- As a **Team Seeker**, I want to be able to view status of my requests to join projects
+- As a **Project Seeker**, I want to be able to view all my requests to join projects
+- As a **Project Seeker**, I want to be able to view status of my requests to join projects
 
 ### 6. Notifications
 
 - As a **Project Creator**, I want to be able to receive notifications when someone applies to my project.
-- As a **Team Seeker**, I want to be able to receive notifications when I am accepted or rejected.
+- As a **Project Seeker**, I want to be able to receive notifications when I am accepted or rejected.
 - As a **user**, I want to be able to receive notifications about new messages in chats.
 
 ### 7. Admin Management
