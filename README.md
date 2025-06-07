@@ -17,43 +17,41 @@ Online web application that helps people find like-minded collaborators for info
 
 - As a **Guest**, I want to be able to register using my email and password.
 - As a **User**, I want to be able to log in with valid credentials.
-- As a **User**, I want to be able to stay authenticated 
-- As a **User**, I want to be able to reset my password via email
+- As a **User**, I want to be able to stay authenticated.
 
 ### 2. Project Creation and Management
 
-- As a **User**, I want to be able to create a project to search for team members
-- As a **User**, I want to be able to edit my project details
-- As a **User**, I want to be able to delete my project
-- As a **User**, I want to be able to view all projects
-- As a **User**, I want to be able to view my projects
-- As a **User**, I want to be able to view my project details
+- As a **User**, I want to be able to create a project to search for team members.
+- As a **User**, I want to be able to view my project details.
+- As a **User**, I want to be able to edit my project details.
+- As a **User**, I want to be able to delete my project.
+- As a **User**, I want to be able to view all my projects.
 
 ### 3. Team Seeking and Management
 
 - As a **User**, I want to be able to browse a list of open projects.
-- As a **User**, I want to be able to filter projects by category, tech stack, desired role, and experience level.
+- As a **User**, I want to be able to filter projects.
 - As a **User**, I want to be able to search for projects using keywords in the title or description.
-- As a **User**, I want to be able to view project details
+- As a **User**, I want to be able to view project details.
 
 ### 4. User Management
 
-- As a **User**, I want to be able to edit my profile
-- As a **User**, I want to be able to delete my account
-- As a **User**, I want to be able to view other users profiles
-- As a **User**, I want to be able to block other users
-- As a **User**, I want to be able to report other users
+- As a **User**, I want to be able to edit my profile.
+- As a **User**, I want to be able to delete my account.
+- As a **User**, I want to be able to view other users profiles.
+- As a **User**, I want to be able to block other users.
+- As a **User**, I want to be able to report other users.
 
 ### 5. Communication and Requests
 
-- As a **User**, I want to be able to send a request to join a project
-- As a **User**, I want to be able to accept or reject a request to join a project
+- As a **User**, I want to be able to send a request to join a project.
+- As a **User**, I want to be able to accept or reject a request to join a project.
 - As a **User**, I want to be able to communicate with other users to discuss project details.
-- As a **User**, I want to be able to see chat messages in real-time
+- As a **User**, I want to be able to see chat messages in real-time.
 - As a **User**, I want to be able to access previous conversations linked to the project.
-- As a **User**, I want to be able to view all requests to join my project
-- As a **User**, I want to be able to view all my requests to join projects
-- As a **User**, I want to be able to view status of my requests to join projects
+- As a **User**, I want to be able to view all requests to join my project.
+- As a **User**, I want to be able to view all my requests to join projects.
+- As a **User**, I want to be able to view status of my requests to join projects.
 
 ### 6. Notifications
 
@@ -63,10 +61,10 @@ Online web application that helps people find like-minded collaborators for info
 
 ### 7. Admin Management
 
-- As an **Admin**, I want to be able to view all users
-- As an **Admin**, I want to be able to view all projects
-- As an **Admin**, I want to be able to view all requests to join projects
-- As an **Admin**, I want to be able to view all chat messages
+- As an **Admin**, I want to be able to view all users.
+- As an **Admin**, I want to be able to view all projects.
+- As an **Admin**, I want to be able to view all requests to join projects.
+- As an **Admin**, I want to be able to view all chat messages.
 - As an **Admin**, I want to be able to view all reports about inappropriate projects.
 - As an **Admin**, I want to be able to view all reports about inappropriate users.
 - As an **Admin**, I want to be able to block users who violate rules.
