@@ -41,7 +41,44 @@ paths:
                   refreshToken:
                     type: string
         '400':
-          description: Email already exists
+          description: Email already exist
+
+  /api/verify-email:
+    get:
+      summary: Verify email address with token
+      tags: [Register]
+      parameters:
+        - name: token
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Email verified successfully
+        '400':
+          description: Invalid or expired token
+
+  /api/resend-verification-email:
+    post:
+      summary: Resend verification email
+      tags: [Register]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [email]
+              properties:
+                email:
+                  type: string
+                  format: email
+      responses:
+        '200':
+          description: Verification email resent successfully
+        '400':
+          description: Email not found
 
   /api/login:
     post:
@@ -223,17 +260,25 @@ components:
           type: string
         email:
           type: string
-        name:
+        username:
           type: string
         bio:
           type: string
+        techStack:
+          type: array
+          items:
+            type: string
         registeredAt:
           type: string
 
     UserProfileUpdate:
       type: object
       properties:
-        name:
+        username:
           type: string
         bio:
           type: string
+        techStack:
+          type: array
+          items:
+            type: string

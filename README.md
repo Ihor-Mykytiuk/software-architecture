@@ -16,6 +16,8 @@ Online web application that helps people find like-minded collaborators for info
 ### 1. Registration and Authentication
 
 - As a **Guest**, I want to be able to register using my email and password.
+- As a **User**, I want to be able to verify my email address by following a link sent to my email
+- As a **User**, I want to be able to request a new verification email.
 - As a **User**, I want to be able to log in with valid credentials.
 - As a **User**, I want to be able to stay authenticated.
 
@@ -38,6 +40,7 @@ Online web application that helps people find like-minded collaborators for info
 
 - As a **User**, I want to be able to view my profile.
 - As a **User**, I want to be able to edit my profile.
+- As a **User**, I want to specify and update my technology stack as part of my profile.
 - As a **User**, I want to be able to delete my account.
 - As a **User**, I want to be able to view other users profiles.
 - As a **User**, I want to be able to block other users.
