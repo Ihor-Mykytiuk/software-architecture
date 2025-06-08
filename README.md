@@ -106,3 +106,26 @@ Online web application that helps people find like-minded collaborators for info
 
 - The system must be a web-based application accessible via browsers.
 - The frontend must be compatible with recent versions of major browsers.
+
+---
+
+## User Service
+
+The User Service is responsible for managing user-related operations and data. It handles user registration, authentication, profile management, and user-related administrative functions.
+
+### User Service API Documentation
+
+#### REST API (OpenAPI)
+[![User Service API](./UserService/openapi.png)](./UserService/openapi.yaml)
+
+[View full OpenAPI Documentation](./UserService/openapi.yaml)
+
+#### Event-Driven API (AsyncAPI)
+[![User Service Events](./UserService/asyncapi.png)](./UserService/asyncapi.yaml)
+
+[View full AsyncAPI Documentation](./UserService/asyncapi.yaml)
+
+### Database Schema
+[![Entity Relationship Diagram](./UserService/erd.png)](https://dbdiagram.io/d/User-Service-ERD-672fab1ee9daa85acae376f0)
+
+[View interactive ERD](https://dbdiagram.io/d/User-Service-ERD-672fab1ee9daa85acae376f0)
